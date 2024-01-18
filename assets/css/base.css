@@ -1,0 +1,411 @@
+.logo-ctu {
+    display: block;
+    width: 50px;
+    margin-left: 20px;
+
+}
+
+.my-nav {
+    position: fixed !important;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.my-login-out {
+    position: absolute;
+    right: 70px;
+    top: 0;
+    transform: translateY(50%);
+
+}
+
+.job-search-sec {
+    position: absolute;
+    z-index: 23;
+    left: 50%;
+    top: 45%;
+    width: 80%;
+    transform: translateY(-50%) translateX(-50%);
+    margin-top: 0px;
+}
+
+.job-search-style1 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 5px #000, 0 0 10px #000;
+
+}
+
+.job-search-style1 h3 {
+    font-size: 40px;
+
+}
+
+.job-search-style1 span {
+    font-size: 25px;
+}
+
+.display-none {
+    display: none;
+}
+
+.my-search {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.width-40 {
+    width: 40%;
+}
+
+.width-20 {
+    width: 20%;
+}
+
+.my-input-search {
+    width: 100%;
+    height: 60px;
+    border: none;
+    box-shadow: 0 0 30px #fff;
+    outline: none;
+}
+
+.my-input-search option {
+    text-align: center;
+
+}
+
+.btn-search-jobs {
+    background-color: #343a40;
+    color: #fff;
+
+}
+
+.radius-left {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0 0 30px #fff;
+}
+
+.radius-right {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 0 30px #fff;
+}
+@media (min-width:768px) and (max-width:1110px){
+    .job-search-sec{
+        top:25%;
+    }
+    .my-input-search span {
+        display: none;
+    }
+}
+@media (max-width:768px) {
+    .job-search-style1 h3 {
+        font-size: 20px;
+
+    }
+
+    .job-search-style1 span {
+        font-size: 14px;
+    }
+
+    .job-search-sec {
+        position: absolute;
+        z-index: 23;
+        left: 50%;
+        top: 20%;
+        width: 90%;
+        transform: translateY(-50%) translateX(-50%);
+
+    }
+
+    .my-input-search i {
+      
+    }
+
+    .danhmuccongviec {
+        display: none;
+    }
+
+    .logo-footer {
+        width: 50%;
+    }
+
+    .logo-footer img {
+        align-items: center;
+        transform: translateX(80%);
+        width: 60%;
+
+    }
+    .my-input-search span {
+        display: none;
+    }
+}
+
+.yellow-cl {
+    color: #ffc107 !important;
+}
+
+/* End heder */
+/* footer */
+.text-decoration-non a {
+    text-decoration: none;
+}
+
+.nav-link.my-cv:hover {
+    color: #fff3cd !important;
+}
+
+.logo-footer img {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.footer-item img {
+    transition: transform .2s;
+}
+
+.footer-item:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    color: #fff;
+}
+
+.my-main {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.my-form {
+    width: 100%;
+    min-height: 100px;
+    padding: 0 24px 32px;
+    text-align: center;
+    background: #fff;
+    border-radius: 2px;
+    margin: 24px;
+    align-self: center;
+    box-shadow: 0 2px 5px 0 rgba(51, 62, 73, 0.1);
+}
+
+.my-form .my-heading {
+    font-size: 20px;
+}
+
+.my-form .my-desc {
+    text-align: center;
+    color: #636d77;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 24px;
+    margin-top: 16px;
+    font-weight: 300;
+}
+
+.my-form-group {
+    display: flex;
+    margin-bottom: 16px;
+    flex-direction: column;
+}
+
+.my-form-label,
+.my-form-message {
+    text-align: left;
+}
+
+.my-form-label {
+    font-weight: 700;
+    padding-bottom: 6px;
+    line-height: 14px;
+    font-size: 14px;
+}
+
+.my-form-control {
+    height: 40px;
+    padding: 8px 12px;
+    border: 1px solid #b3b3b3;
+    border-radius: 3px;
+    outline: none;
+    font-size: 14px;
+}
+
+.my-form-checkbox {
+    flex-direction: row;
+}
+
+.my-checkbox-element {
+    margin: 12px 24px 0;
+}
+
+.my-checkbox-name {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #636d77;
+}
+
+.my-form-control:hover {
+    border-color: #1dbfaf;
+}
+
+.my-form-group.my-invalid .my-form-control {
+    border-color: #f33a58;
+}
+
+.my-form-group.my-invalid .my-form-message {
+    color: #f33a58;
+}
+
+.my-form-message {
+    font-size: 12px;
+    line-height: 1.6rem;
+    padding: 4px 0 0;
+}
+
+.my-form-submit {
+    outline: none;
+    background-color: #1dbfaf;
+    margin-top: 12px;
+    padding: 12px 16px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.my-form-submit:hover {
+    background-color: #1ac7b6;
+}
+
+.my-spacer {
+    margin-top: 36px;
+}
+
+.loading {
+    position: fixed;
+    z-index: 999;
+    height: 2em;
+    width: 2em;
+    overflow: show;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  
+  /* Transparent Overlay */
+  .loading:before {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+  }
+  
+  /* :not(:required) hides these rules from IE9 and below */
+  .loading:not(:required) {
+    /* hide "loading..." text */
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+  }
+  
+  .loading:not(:required):after {
+    content: '';
+    display: block;
+    font-size: 10px;
+    width: 1em;
+    height: 1em;
+    margin-top: -0.5em;
+    -webkit-animation: spinner 1500ms infinite linear;
+    -moz-animation: spinner 1500ms infinite linear;
+    -ms-animation: spinner 1500ms infinite linear;
+    -o-animation: spinner 1500ms infinite linear;
+    animation: spinner 1500ms infinite linear;
+    border-radius: 0.5em;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.5) -1.5em 0 0 0, rgba(0, 0, 0, 0.5) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+    box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) -1.5em 0 0 0, rgba(0, 0, 0, 0.75) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+  }
+  
+  /* Animation */
+  
+  @-webkit-keyframes spinner {
+    0% {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @-moz-keyframes spinner {
+    0% {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @-o-keyframes spinner {
+    0% {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes spinner {
+    0% {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }

@@ -1,0 +1,47 @@
+
+.luoi{
+    margin-top: 100px;
+    
+}
+.box{
+    width: 100%;
+    height: 70px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+.nut_main{
+   margin: 15px;
+}
+.duongvien{
+    border: 1px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;   
+    
+}
+.hinhanh{
+    width: 100%;
+    height: 300px;
+    margin-top: 16px;
+}
+
+.nut_1 ,.nut_2,.nut_3,.nut_4,.nut_5,.nut_6{
+    margin-top: 12px;
+}
+main{
+    margin-bottom: 10%;
+}
+.nut_1:hover,.nut_2:hover,.nut_3:hover,.nut_4:hover,.nut_5:hover,.nut_6:hover{
+    background-color: #ffc107;
+    color:  #212529;
+
+}
+ a:hover,h3:hover{
+    color: red;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h3{
+    font-weight: 300;
+}
